@@ -100,4 +100,9 @@ ENV/
 # mypy
 .mypy_cache/
 
+# Data Files
 MNIST_data/
+
+# tensorboard log files
+log/
+log1/
