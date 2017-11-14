@@ -4,11 +4,6 @@ import matplotlib.pyplot as plt
 
 from tensorflow.examples.tutorials.mnist import input_data
 
-
-seed = 42
-np.random.seed(seed)
-tf.set_random_seed(seed)
-
 # In[2]:
 
 mnist = input_data.read_data_sets("MNIST_data/", one_hot=True)
